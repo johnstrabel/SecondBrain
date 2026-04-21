@@ -1,0 +1,7 @@
+2026-04-01 13:46:41,321 INFO Loading tickers from event_study_results...
+2026-04-01 13:46:41,512 INFO Loading company names from earnings_announcements...
+2026-04-01 13:46:41,574 INFO Got company names for 507 tickers
+2026-04-01 13:46:41,589 INFO Already have Wikipedia data for 69 tickers
+2026-04-01 13:46:41,589 INFO Remaining: 257 tickers
+2026-04-01 14:17:21,974 INFO Done. Total rows saved: 625,628
+2026-04-01 14:17:22,164 INFO Wikipedia table: 820,302 rows, 323 tickers

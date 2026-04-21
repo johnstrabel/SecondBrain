@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import docx; print\\('OK'\\)\")",
+      "Bash(pip show *)",
+      "Bash(python3 -c \"import python_docx; print\\(python_docx.__file__\\)\")",
+      "Bash(C:/Python312/python.exe -c ' *)",
+      "Bash(C:/Python312/python.exe -c \"import pypdf; print\\('pypdf ok'\\)\")",
+      "Bash(C:/Python312/python.exe -c \"import pdfminer; print\\('pdfminer ok'\\)\")",
+      "Bash(C:/Python312/python.exe -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(C:/Python312/python.exe -m pip install pypdf --quiet)",
+      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__list_meeting_folders",
+      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__list_meetings",
+      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__get_meetings",
+      "Bash(xargs ls *)"
+    ]
+  }
+}

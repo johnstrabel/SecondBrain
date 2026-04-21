@@ -1,0 +1,55 @@
+
+REDDIT DATASET SUMMARY (2010-2023)
+====================================
+Total mentions:       2,738,767
+Unique tickers:       53,523
+Subreddits:           15
+Date range:           2010-01-01T09:02:54.000000000 to 2023-12-31T23:45:50.000000000
+
+BY YEAR:
+ year  mentions
+ 2010       557
+ 2011      2963
+ 2012     13273
+ 2013     20487
+ 2014     33164
+ 2015     41369
+ 2016     69690
+ 2017    132860
+ 2018    208707
+ 2019    194675
+ 2020    393285
+ 2021   1070608
+ 2022    336027
+ 2023    221102
+
+TOP 10 TICKERS:
+ticker  mentions
+   GME    161489
+   AMC     62478
+   SPY     37425
+  TSLA     29472
+   AMD     18708
+  BBBY     17062
+  AAPL     16955
+  PLTR     13007
+    TD     11284
+  AMZN     11225
+
+BY SUBREDDIT:
+           subreddit  mentions
+      wallstreetbets    911602
+          Superstonk    362859
+              stocks    290990
+         pennystocks    267463
+           RobinHood    201217
+         StockMarket    198798
+           investing    191108
+             options     83470
+          Daytrading     66181
+           dividends     54275
+           thetagang     43811
+investing_discussion     21702
+      ValueInvesting     19781
+         algotrading     14522
+    SecurityAnalysis     10988

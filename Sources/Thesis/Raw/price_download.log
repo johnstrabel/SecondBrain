@@ -1,0 +1,325 @@
+2026-03-25 14:45:30,131 INFO ============================================================
+2026-03-25 14:45:30,133 INFO S&P Universe Price Downloader
+2026-03-25 14:45:30,133 INFO ============================================================
+2026-03-25 14:45:30,484 INFO Table daily_prices ready
+2026-03-25 14:45:30,484 INFO Building ticker universe...
+2026-03-25 14:45:31,735 INFO Historical S&P 500: 1105 tickers
+2026-03-25 14:45:31,960 WARNING Could not fetch S&P 500 from Wikipedia: HTTP Error 403: Forbidden
+2026-03-25 14:45:32,067 WARNING Could not fetch S&P MidCap 400 from Wikipedia: HTTP Error 403: Forbidden
+2026-03-25 14:45:32,198 WARNING Could not fetch S&P SmallCap 600 from Wikipedia: HTTP Error 403: Forbidden
+2026-03-25 14:45:32,201 INFO Total universe: 636 unique tickers
+2026-03-25 14:45:32,202 INFO Universe: 636 tickers
+2026-03-25 14:45:32,203 INFO Already completed: 0 | Remaining: 636
+2026-03-25 14:45:32,300 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:32,300 WARNING Empty result for batch: ['A', 'AABA', 'AAL', 'AAP', 'AAPL', 'ABBV', 'ABC', 'ABMD', 'ABT', 'ABX', 'ACN', 'ADBE', 'ADI', 'ADM', 'ADP', 'ADS', 'ADSK', 'AEE', 'AEP', 'AES']
+2026-03-25 14:45:34,310 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:34,310 WARNING Empty result for batch: ['AET', 'AFL', 'AGN', 'AIG', 'AIV', 'AIZ', 'AJG', 'AKAM', 'AKS', 'ALB', 'ALGN', 'ALK', 'ALL', 'ALLE', 'ALXN', 'AMAT', 'AMD', 'AME', 'AMG', 'AMGN']
+2026-03-25 14:45:36,317 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:36,319 WARNING Empty result for batch: ['AMP', 'AMT', 'AMZN', 'AN', 'ANDV', 'ANET', 'ANF', 'ANSS', 'ANTM', 'AON', 'AOS', 'APA', 'APC', 'APD', 'APH', 'APTV', 'ARE', 'ARNC', 'ASH', 'ATGE']
+2026-03-25 14:45:38,323 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:38,323 WARNING Empty result for batch: ['ATI', 'ATVI', 'AVB', 'AVGO', 'AVP', 'AVY', 'AWK', 'AXP', 'AYI', 'AZO', 'BA', 'BAC', 'BAX', 'BBBY', 'BBT', 'BBY', 'BC', 'BCO', 'BDX', 'BEN']
+2026-03-25 14:45:40,340 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:40,340 WARNING Empty result for batch: ['BF-B', 'BGG', 'BHF', 'BHGE', 'BIG', 'BIIB', 'BK', 'BKNG', 'BLK', 'BLL', 'BMS', 'BMY', 'BR', 'BRK-B', 'BSX', 'BVSN', 'BWA', 'BXP', 'C', 'CA']
+2026-03-25 14:45:42,344 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:42,346 WARNING Empty result for batch: ['CAG', 'CAH', 'CAL', 'CAR', 'CAT', 'CB', 'CBOE', 'CBRE', 'CBS', 'CCE', 'CCEP', 'CCI', 'CCK', 'CCL', 'CDNS', 'CE', 'CELG', 'CERN', 'CF', 'CFG']
+2026-03-25 14:45:44,351 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:44,351 WARNING Empty result for batch: ['CHD', 'CHK', 'CHRW', 'CHTR', 'CI', 'CIEN', 'CINF', 'CL', 'CLF', 'CLX', 'CMA', 'CMCSA', 'CME', 'CMG', 'CMI', 'CMS', 'CNC', 'CNP', 'CNX', 'COF']
+2026-03-25 14:45:46,356 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:46,356 WARNING Empty result for batch: ['COG', 'COL', 'COO', 'COP', 'COST', 'COTY', 'CPB', 'CPRI', 'CPRT', 'CR', 'CRM', 'CSCO', 'CSX', 'CTAS', 'CTB', 'CTL', 'CTSH', 'CTXS', 'CVG', 'CVS']
+2026-03-25 14:45:48,362 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:48,362 WARNING Empty result for batch: ['CVX', 'CXO', 'D', 'DAL', 'DDR', 'DDS', 'DE', 'DF', 'DFS', 'DG', 'DGX', 'DHI', 'DHR', 'DIS', 'DISCA', 'DISCK', 'DISH', 'DLR', 'DLTR', 'DLX']
+2026-03-25 14:45:50,370 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:50,371 WARNING Empty result for batch: ['DNB', 'DNR', 'DO', 'DOV', 'DRE', 'DRI', 'DTE', 'DUK', 'DVA', 'DVN', 'DWDP', 'DXC', 'EA', 'EBAY', 'ECL', 'ED', 'EFX', 'EHC', 'EIX', 'EL']
+2026-03-25 14:45:52,373 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:52,373 WARNING Empty result for batch: ['EMN', 'EMR', 'ENDP', 'EOG', 'EQIX', 'EQR', 'EQT', 'ES', 'ESRX', 'ESS', 'ESV', 'ETFC', 'ETN', 'ETR', 'EVHC', 'EVRG', 'EW', 'EXC', 'EXPD', 'EXPE']
+2026-03-25 14:45:54,377 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:54,377 WARNING Empty result for batch: ['EXR', 'F', 'FANG', 'FAST', 'FB', 'FBHS', 'FCPT', 'FCX', 'FDX', 'FE', 'FFIV', 'FHN', 'FII', 'FIS', 'FISV', 'FITB', 'FL', 'FLIR', 'FLR', 'FLS']
+2026-03-25 14:45:56,381 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:56,386 WARNING Empty result for batch: ['FLT', 'FMC', 'FMCC', 'FNMA', 'FOSL', 'FOX', 'FOXA', 'FRC', 'FRT', 'FSLR', 'FTI', 'FTNT', 'FTR', 'FTV', 'GD', 'GE', 'GGP', 'GHC', 'GILD', 'GIS']
+2026-03-25 14:45:58,390 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:45:58,390 WARNING Empty result for batch: ['GLW', 'GM', 'GME', 'GNW', 'GOOG', 'GOOGL', 'GPC', 'GPN', 'GPS', 'GRA', 'GRMN', 'GS', 'GT', 'GWW', 'HAL', 'HAS', 'HBAN', 'HBI', 'HCA', 'HCP']
+2026-03-25 14:46:00,394 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:00,394 WARNING Empty result for batch: ['HD', 'HES', 'HFC', 'HIG', 'HII', 'HLT', 'HOG', 'HOLX', 'HON', 'HP', 'HPE', 'HPQ', 'HRB', 'HRL', 'HRS', 'HSIC', 'HST', 'HSY', 'HUM', 'IAC']
+2026-03-25 14:46:02,403 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:02,405 WARNING Empty result for batch: ['IBM', 'ICE', 'IDXX', 'IFF', 'ILMN', 'INCY', 'INFO', 'INTC', 'INTU', 'IP', 'IPG', 'IPGP', 'IQV', 'IR', 'IRM', 'ISRG', 'IT', 'ITT', 'ITW', 'IVZ']
+2026-03-25 14:46:04,409 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:04,409 WARNING Empty result for batch: ['JBHT', 'JBL', 'JCI', 'JCP', 'JEC', 'JEF', 'JKHY', 'JNJ', 'JNPR', 'JPM', 'JWN', 'K', 'KBH', 'KDP', 'KEY', 'KEYS', 'KHC', 'KIM', 'KLAC', 'KMB']
+2026-03-25 14:46:06,412 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:06,412 WARNING Empty result for batch: ['KMI', 'KMX', 'KO', 'KORS', 'KR', 'KSS', 'KSU', 'L', 'LB', 'LDOS', 'LEG', 'LEN', 'LH', 'LKQ', 'LLL', 'LLY', 'LM', 'LMT', 'LNC', 'LNT']
+2026-03-25 14:46:08,423 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:08,423 WARNING Empty result for batch: ['LOW', 'LPX', 'LRCX', 'LUB', 'LUV', 'LW', 'LYB', 'M', 'MA', 'MAA', 'MAC', 'MAR', 'MAS', 'MAT', 'MBI', 'MCD', 'MCHP', 'MCK', 'MCO', 'MDLZ']
+2026-03-25 14:46:10,431 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:10,431 WARNING Empty result for batch: ['MDP', 'MDR', 'MDT', 'MET', 'MGM', 'MHK', 'MKC', 'MLM', 'MMC', 'MMM', 'MNK', 'MNST', 'MO', 'MOS', 'MPC', 'MRK', 'MRO', 'MS', 'MSCI', 'MSFT']
+2026-03-25 14:46:12,437 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:12,439 WARNING Empty result for batch: ['MSI', 'MTB', 'MTD', 'MTG', 'MTW', 'MU', 'MUR', 'MXIM', 'MYL', 'NAV', 'NAVI', 'NBL', 'NBR', 'NC', 'NCLH', 'NCR', 'NDAQ', 'NE', 'NEE', 'NEM']
+2026-03-25 14:46:14,443 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:14,443 WARNING Empty result for batch: ['NFLX', 'NFX', 'NI', 'NKE', 'NKTR', 'NLSN', 'NOC', 'NOV', 'NRG', 'NSC', 'NTAP', 'NTRS', 'NUE', 'NVDA', 'NWL', 'NWS', 'NWSA', 'NYT', 'O', 'ODP']
+2026-03-25 14:46:16,446 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:16,446 WARNING Empty result for batch: ['OI', 'OKE', 'OMC', 'ORCL', 'ORLY', 'OXY', 'PAYX', 'PBCT', 'PBI', 'PCAR', 'PCG', 'PCH', 'PDCO', 'PEG', 'PEP', 'PFE', 'PFG', 'PG', 'PGR', 'PH']
+2026-03-25 14:46:18,455 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:18,455 WARNING Empty result for batch: ['PHM', 'PKG', 'PKI', 'PLD', 'PM', 'PNC', 'PNR', 'PNW', 'PPG', 'PPL', 'PRGO', 'PRU', 'PSA', 'PSX', 'PTC', 'PVH', 'PWR', 'PX', 'PXD', 'PYPL']
+2026-03-25 14:46:20,460 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:20,460 WARNING Empty result for batch: ['QCOM', 'QEP', 'QRVO', 'R', 'RAD', 'RCL', 'RDC', 'RDS-A', 'RE', 'REG', 'REGN', 'RF', 'RHI', 'RHT', 'RIG', 'RJF', 'RL', 'RMD', 'ROK', 'ROL']
+2026-03-25 14:46:22,464 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:22,464 WARNING Empty result for batch: ['ROP', 'ROST', 'RRC', 'RRD', 'RSG', 'RTN', 'S', 'SANM', 'SBAC', 'SBUX', 'SCG', 'SCHW', 'SCI', 'SEE', 'SHLD', 'SHW', 'SIG', 'SIVB', 'SJM', 'SLB']
+2026-03-25 14:46:24,471 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:24,471 WARNING Empty result for batch: ['SLG', 'SLM', 'SNA', 'SNPS', 'SNV', 'SO', 'SPG', 'SPGI', 'SRCL', 'SRE', 'SSP', 'STI', 'STT', 'STX', 'STZ', 'SVU', 'SWK', 'SWKS', 'SWN', 'SYF']
+2026-03-25 14:46:26,475 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:26,475 WARNING Empty result for batch: ['SYK', 'SYMC', 'SYY', 'T', 'TAP', 'TDC', 'TDG', 'TEL', 'TEN', 'TER', 'TEX', 'TGNA', 'TGT', 'THC', 'TIF', 'TJX', 'TKR', 'TMK', 'TMO', 'TMUS']
+2026-03-25 14:46:28,481 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:28,481 WARNING Empty result for batch: ['TPR', 'TRIP', 'TROW', 'TRV', 'TSCO', 'TSN', 'TSS', 'TTWO', 'TUP', 'TWTR', 'TXN', 'TXT', 'UA', 'UAA', 'UAL', 'UDR', 'UHS', 'UIS', 'ULTA', 'UN']
+2026-03-25 14:46:30,490 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:30,490 WARNING Empty result for batch: ['UNH', 'UNM', 'UNP', 'UPS', 'URBN', 'URI', 'USB', 'UTX', 'V', 'VAR', 'VFC', 'VIAB', 'VIAV', 'VLO', 'VMC', 'VNO', 'VRSK', 'VRSN', 'VRTX', 'VTR']
+2026-03-25 14:46:32,494 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:32,494 WARNING Empty result for batch: ['VZ', 'WAT', 'WBA', 'WCG', 'WDC', 'WEC', 'WELL', 'WFC', 'WFT', 'WHR', 'WIN', 'WLTW', 'WM', 'WMB', 'WMT', 'WOR', 'WPX', 'WRK', 'WU', 'WY']
+2026-03-25 14:46:34,499 WARNING Batch download error: download() got an unexpected keyword argument 'show_errors'
+2026-03-25 14:46:34,505 WARNING Empty result for batch: ['WYND', 'WYNN', 'X', 'XEC', 'XEL', 'XL', 'XLNX', 'XOM', 'XRAY', 'XRX', 'XYL', 'YRCW', 'YUM', 'ZBH', 'ZION', 'ZTS']
+2026-03-25 14:46:36,511 INFO ============================================================
+2026-03-25 14:46:36,511 INFO Done! 0 price records inserted
+2026-03-25 14:46:36,511 INFO Tickers with no data: 636
+2026-03-25 14:46:36,531 INFO DB summary: 0 tickers, 0 rows, None to None
+2026-03-25 14:49:25,746 INFO ============================================================
+2026-03-25 14:49:25,746 INFO S&P Universe Price Downloader
+2026-03-25 14:49:25,746 INFO ============================================================
+2026-03-25 14:49:25,870 INFO Table daily_prices ready
+2026-03-25 14:49:25,870 INFO Building ticker universe...
+2026-03-25 14:49:26,571 INFO Historical S&P 500: 1105 tickers
+2026-03-25 14:49:26,729 WARNING Could not fetch S&P 500: HTTP Error 403: Forbidden
+2026-03-25 14:49:26,898 WARNING Could not fetch MidCap 400: HTTP Error 403: Forbidden
+2026-03-25 14:49:27,061 WARNING Could not fetch SmallCap 600: HTTP Error 403: Forbidden
+2026-03-25 14:49:27,065 INFO Total universe: 636 tickers
+2026-03-25 14:49:27,066 INFO Already done: 636 | Remaining: 0
+2026-03-25 14:49:27,066 INFO All tickers already downloaded!
+2026-03-25 14:49:34,293 INFO ============================================================
+2026-03-25 14:49:34,293 INFO S&P Universe Price Downloader
+2026-03-25 14:49:34,295 INFO ============================================================
+2026-03-25 14:49:34,417 INFO Table daily_prices ready
+2026-03-25 14:49:34,417 INFO Building ticker universe...
+2026-03-25 14:49:37,417 INFO Historical S&P 500: 1105 tickers
+2026-03-25 14:49:37,588 WARNING Could not fetch S&P 500: HTTP Error 403: Forbidden
+2026-03-25 14:49:37,701 WARNING Could not fetch MidCap 400: HTTP Error 403: Forbidden
+2026-03-25 14:49:37,878 WARNING Could not fetch SmallCap 600: HTTP Error 403: Forbidden
+2026-03-25 14:49:37,880 INFO Total universe: 636 tickers
+2026-03-25 14:49:37,883 INFO Already done: 636 | Remaining: 0
+2026-03-25 14:49:37,883 INFO All tickers already downloaded!
+2026-03-25 15:27:10,151 INFO ============================================================
+2026-03-25 15:27:10,151 INFO S&P Universe Price Downloader v3
+2026-03-25 15:27:10,151 INFO ============================================================
+2026-03-25 15:27:10,314 INFO Table daily_prices ready
+2026-03-25 15:27:10,314 INFO Building ticker universe...
+2026-03-25 15:27:11,469 INFO Loaded 1105 tickers from historical S&P 500 source
+2026-03-25 15:27:16,324 INFO Added 53108 tickers from Reddit mention data
+2026-03-25 15:27:16,338 INFO Total universe: 53744 tickers
+2026-03-25 15:27:16,379 INFO Tickers already in DB: 0
+2026-03-25 15:27:16,381 INFO Remaining: 53744 tickers to download
+2026-03-25 15:28:00,701 ERROR Failed to get ticker 'AABC' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 15:28:00,701 ERROR $AABC: possibly delisted; no timezone found
+2026-03-25 15:33:43,815 ERROR Failed to get ticker 'AARP' reason: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-03-25 15:33:43,886 ERROR $AARP: possibly delisted; no timezone found
+2026-03-25 15:34:34,528 INFO ============================================================
+2026-03-25 15:34:34,528 INFO S&P Universe Price Downloader v3
+2026-03-25 15:34:34,528 INFO ============================================================
+2026-03-25 15:34:34,648 INFO Table daily_prices ready
+2026-03-25 15:34:34,648 INFO Building ticker universe...
+2026-03-25 15:34:35,462 INFO Loaded 1105 tickers from historical S&P 500 source
+2026-03-25 15:34:36,879 INFO Added 53108 tickers from Reddit mention data
+2026-03-25 15:34:36,879 INFO Total universe: 53744 tickers
+2026-03-25 15:34:36,912 INFO Tickers already in DB: 0
+2026-03-25 15:34:36,912 INFO Remaining: 53744 tickers to download
+2026-03-25 15:39:58,648 ERROR Failed to get ticker 'ABKI' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 15:39:58,648 ERROR $ABKI: possibly delisted; no timezone found
+2026-03-25 15:52:46,262 ERROR Failed to get ticker 'AF' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 15:52:46,294 ERROR $AF: possibly delisted; no timezone found
+2026-03-25 15:58:53,036 ERROR Failed to get ticker 'AHPAU' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 15:58:53,037 ERROR $AHPAU: possibly delisted; no timezone found
+2026-03-25 16:03:49,550 ERROR Failed to get ticker 'AKSY' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:03:49,550 ERROR $AKSY: possibly delisted; no timezone found
+2026-03-25 16:11:36,150 ERROR Failed to get ticker 'AMEUF' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:11:36,150 ERROR $AMEUF: possibly delisted; no timezone found
+2026-03-25 16:12:27,707 ERROR Failed to get ticker 'AMID' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:12:27,754 ERROR $AMID: possibly delisted; no timezone found
+2026-03-25 16:23:43,487 ERROR Failed to get ticker 'AQR' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:23:43,487 ERROR $AQR: possibly delisted; no timezone found
+2026-03-25 16:27:21,535 ERROR Failed to get ticker 'ARMR' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:27:21,535 ERROR $ARMR: possibly delisted; no timezone found
+2026-03-25 16:27:34,134 ERROR Failed to get ticker 'ARMS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:27:34,135 ERROR $ARMS: possibly delisted; no timezone found
+2026-03-25 16:27:45,805 ERROR Failed to get ticker 'ARMUP' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:27:45,806 ERROR $ARMUP: possibly delisted; no timezone found
+2026-03-25 16:29:28,645 ERROR Failed to get ticker 'ARTR' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:29:28,645 ERROR $ARTR: possibly delisted; no timezone found
+2026-03-25 16:37:59,226 ERROR Failed to get ticker 'ATSD' reason: HTTPSConnectionPool(host='www.yahoo.com', port=443): Read timed out. (read timeout=30)
+2026-03-25 16:37:59,226 ERROR $ATSD: possibly delisted; no timezone found
+2026-03-25 16:46:29,403 ERROR Failed to get ticker 'AXSC' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:46:29,403 ERROR $AXSC: possibly delisted; no timezone found
+2026-03-25 16:49:11,708 ERROR Failed to get ticker 'BABY' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:49:11,709 ERROR $BABY: possibly delisted; no timezone found
+2026-03-25 16:50:22,588 ERROR Failed to get ticker 'BAH' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:50:22,588 ERROR $BAH: possibly delisted; no timezone found
+2026-03-25 16:55:27,771 ERROR Failed to get ticker 'BBEG' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 16:55:27,771 ERROR $BBEG: possibly delisted; no timezone found
+2026-03-25 17:04:57,050 ERROR Failed to get ticker 'BFC' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:04:57,050 ERROR $BFC: possibly delisted; no timezone found
+2026-03-25 17:14:44,535 ERROR Failed to get ticker 'BLET' reason: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-25 17:14:44,535 ERROR $BLET: possibly delisted; no timezone found
+2026-03-25 17:18:50,254 ERROR Failed to get ticker 'BMK' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:18:50,254 ERROR $BMK: possibly delisted; no timezone found
+2026-03-25 17:23:24,243 ERROR Failed to get ticker 'BOLA' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:23:24,245 ERROR $BOLA: possibly delisted; no timezone found
+2026-03-25 17:31:37,715 ERROR Failed to get ticker 'BRTHF' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:31:37,715 ERROR $BRTHF: possibly delisted; no timezone found
+2026-03-25 17:31:49,289 ERROR Failed to get ticker 'BRTI' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:31:49,290 ERROR $BRTI: possibly delisted; no timezone found
+2026-03-25 17:31:59,849 ERROR Failed to get ticker 'BRTNX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:31:59,849 ERROR $BRTNX: possibly delisted; no timezone found
+2026-03-25 17:45:33,591 ERROR Failed to get ticker 'CAHC' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:45:33,592 ERROR $CAHC: possibly delisted; no timezone found
+2026-03-25 17:48:59,296 ERROR Failed to get ticker 'CASIO' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 17:48:59,297 ERROR $CASIO: possibly delisted; no timezone found
+2026-03-25 18:01:28,095 ERROR Failed to get ticker 'CFK' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:01:28,095 ERROR $CFK: possibly delisted; no timezone found
+2026-03-25 18:17:38,591 ERROR Failed to get ticker 'CMF' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:17:38,591 ERROR $CMF: possibly delisted; no timezone found
+2026-03-25 18:29:18,966 ERROR Failed to get ticker 'CPDC' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:29:18,966 ERROR $CPDC: possibly delisted; no timezone found
+2026-03-25 18:29:29,656 ERROR Failed to get ticker 'CPE' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:29:29,656 ERROR $CPE: possibly delisted; no timezone found
+2026-03-25 18:30:29,317 ERROR Failed to get ticker 'CPLP' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:30:29,318 ERROR $CPLP: possibly delisted; no timezone found
+2026-03-25 18:48:11,515 ERROR Failed to get ticker 'CWGIX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:48:11,517 ERROR $CWGIX: possibly delisted; no timezone found
+2026-03-25 18:50:36,784 ERROR Failed to get ticker 'CYD' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:50:36,784 ERROR $CYD: possibly delisted; no timezone found
+2026-03-25 18:53:43,092 ERROR Failed to get ticker 'DALE' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:53:43,092 ERROR $DALE: possibly delisted; no timezone found
+2026-03-25 18:59:03,432 ERROR Failed to get ticker 'DDGME' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 18:59:03,432 ERROR $DDGME: possibly delisted; no timezone found
+2026-03-25 19:20:32,454 ERROR Failed to get ticker 'DPD' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:20:32,454 ERROR $DPD: possibly delisted; no timezone found
+2026-03-25 19:21:57,408 ERROR Failed to get ticker 'DPWR' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:21:57,408 ERROR $DPWR: possibly delisted; no timezone found
+2026-03-25 19:24:08,501 ERROR Failed to get ticker 'DRRP' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:24:08,504 ERROR $DRRP: possibly delisted; no timezone found
+2026-03-25 19:31:52,472 ERROR Failed to get ticker 'DXBRF' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:31:52,472 ERROR $DXBRF: possibly delisted; no timezone found
+2026-03-25 19:34:28,992 ERROR Failed to get ticker 'EARI' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:34:28,992 ERROR $EARI: possibly delisted; no timezone found
+2026-03-25 19:36:51,137 ERROR Failed to get ticker 'ECDC' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:36:51,145 ERROR $ECDC: possibly delisted; no timezone found
+2026-03-25 19:43:56,977 ERROR Failed to get ticker 'EGN' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:43:56,977 ERROR $EGN: possibly delisted; no timezone found
+2026-03-25 19:47:38,549 ERROR Failed to get ticker 'ELEC' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:47:38,549 ERROR $ELEC: possibly delisted; no timezone found
+2026-03-25 19:50:45,085 ERROR Failed to get ticker 'EMFD' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:50:45,087 ERROR $EMFD: possibly delisted; no timezone found
+2026-03-25 19:52:53,041 ERROR Failed to get ticker 'END' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:52:53,042 ERROR $END: possibly delisted; no timezone found
+2026-03-25 19:56:04,390 ERROR Failed to get ticker 'EON' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:56:04,391 ERROR $EON: possibly delisted; no timezone found
+2026-03-25 19:57:32,501 ERROR Failed to get ticker 'EPRF' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:57:32,501 ERROR $EPRF: possibly delisted; no timezone found
+2026-03-25 19:58:01,005 ERROR Failed to get ticker 'EPWN' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 19:58:01,006 ERROR $EPWN: possibly delisted; no timezone found
+2026-03-25 20:08:56,015 ERROR Failed to get ticker 'EVNI' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:08:56,019 ERROR $EVNI: possibly delisted; no timezone found
+2026-03-25 20:15:22,014 ERROR Failed to get ticker 'FAGIX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:15:22,014 ERROR $FAGIX: possibly delisted; no timezone found
+2026-03-25 20:17:26,046 ERROR Failed to get ticker 'FASDX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:17:26,047 ERROR $FASDX: possibly delisted; no timezone found
+2026-03-25 20:30:44,311 ERROR Failed to get ticker 'FHHL' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:30:44,311 ERROR $FHHL: possibly delisted; no timezone found
+2026-03-25 20:38:28,147 ERROR Failed to get ticker 'FLML' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:38:28,147 ERROR $FLML: possibly delisted; no timezone found
+2026-03-25 20:42:38,815 ERROR Failed to get ticker 'FMVSS' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:42:38,815 ERROR $FMVSS: possibly delisted; no timezone found
+2026-03-25 20:46:29,818 ERROR Failed to get ticker 'FOLPA' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:46:29,819 ERROR $FOLPA: possibly delisted; no timezone found
+2026-03-25 20:52:47,387 ERROR Failed to get ticker 'FRWG' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:52:47,388 ERROR $FRWG: possibly delisted; no timezone found
+2026-03-25 20:57:49,216 ERROR Failed to get ticker 'FTMLK' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 20:57:49,216 ERROR $FTMLK: possibly delisted; no timezone found
+2026-03-25 21:05:58,264 ERROR Failed to get ticker 'GAIOX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 21:05:58,264 ERROR $GAIOX: possibly delisted; no timezone found
+2026-03-25 21:14:56,843 ERROR Failed to get ticker 'GENN' reason: HTTPSConnectionPool(host='www.yahoo.com', port=443): Read timed out. (read timeout=30)
+2026-03-25 21:14:56,847 ERROR $GENN: possibly delisted; no timezone found
+2026-03-25 21:15:35,505 ERROR Failed to get ticker 'GENO' reason: HTTPSConnectionPool(host='www.yahoo.com', port=443): Read timed out. (read timeout=30)
+2026-03-25 21:15:35,505 ERROR $GENO: possibly delisted; no timezone found
+2026-03-25 21:30:46,248 ERROR Failed to get ticker 'GOJEK' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 21:30:46,248 ERROR $GOJEK: possibly delisted; no timezone found
+2026-03-25 21:33:25,995 ERROR Failed to get ticker 'GPGPU' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 21:33:25,995 ERROR $GPGPU: possibly delisted; no timezone found
+2026-03-25 21:43:18,249 ERROR Failed to get ticker 'GTVH' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 21:43:18,249 ERROR $GTVH: possibly delisted; no timezone found
+2026-03-25 21:46:14,269 ERROR Failed to get ticker 'GWHP' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 21:46:14,270 ERROR $GWHP: possibly delisted; no timezone found
+2026-03-25 22:18:41,186 ERROR Failed to get ticker 'HTG' reason: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-25 22:18:41,188 ERROR $HTG: possibly delisted; no timezone found
+2026-03-25 23:07:23,845 ERROR Failed to get ticker 'JDMNX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 23:07:23,845 ERROR $JDMNX: possibly delisted; no timezone found
+2026-03-25 23:53:30,044 ERROR Failed to get ticker 'LILY' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-25 23:53:30,044 ERROR $LILY: possibly delisted; no timezone found
+2026-03-26 00:10:16,394 ERROR Failed to get ticker 'LVGEM' reason: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-26 00:10:16,394 ERROR $LVGEM: possibly delisted; no timezone found
+2026-03-26 00:22:11,742 ERROR Failed to get ticker 'MCMJ' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 00:22:11,745 ERROR $MCMJ: possibly delisted; no timezone found
+2026-03-26 00:27:08,256 ERROR Failed to get ticker 'MEMC' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 00:27:08,256 ERROR $MEMC: possibly delisted; no timezone found
+2026-03-26 01:23:35,136 ERROR Failed to get ticker 'NMLS' reason: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-26 01:23:35,136 ERROR $NMLS: possibly delisted; no timezone found
+2026-03-26 02:00:53,411 ERROR Failed to get ticker 'ORGN' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 02:00:53,411 ERROR $ORGN: possibly delisted; no timezone found
+2026-03-26 03:44:16,637 ERROR Failed to get ticker 'SASE' reason: HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 03:44:16,638 ERROR $SASE: possibly delisted; no timezone found
+2026-03-26 03:44:37,926 ERROR Failed to get ticker 'SATAN' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 03:44:37,926 ERROR $SATAN: possibly delisted; no timezone found
+2026-03-26 06:02:36,161 ERROR Failed to get ticker 'VDY' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 06:02:36,162 ERROR $VDY: possibly delisted; no timezone found
+2026-03-26 06:13:50,424 ERROR Failed to get ticker 'VLRX' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 06:13:50,424 ERROR $VLRX: possibly delisted; no timezone found
+2026-03-26 14:40:47,334 INFO ============================================================
+2026-03-26 14:40:47,336 INFO S&P Universe Price Downloader v3
+2026-03-26 14:40:47,336 INFO ============================================================
+2026-03-26 14:40:47,336 INFO Removed stale progress file
+2026-03-26 14:40:47,517 INFO Table daily_prices ready
+2026-03-26 14:40:47,517 INFO Building ticker universe...
+2026-03-26 14:40:49,632 INFO Loaded 1105 tickers from historical S&P 500 source
+2026-03-26 14:40:55,084 INFO Added 53108 tickers from Reddit mention data
+2026-03-26 14:40:55,097 INFO Total universe: 53744 tickers
+2026-03-26 14:40:55,130 INFO Tickers already in DB: 0
+2026-03-26 14:40:55,130 INFO Remaining: 53744 tickers to download
+2026-03-26 14:42:09,983 INFO ============================================================
+2026-03-26 14:42:09,983 INFO S&P Universe Price Downloader v3
+2026-03-26 14:42:09,985 INFO ============================================================
+2026-03-26 14:42:09,985 INFO Removed stale progress file
+2026-03-26 14:42:10,119 INFO Table daily_prices ready
+2026-03-26 14:42:10,119 INFO Building ticker universe...
+2026-03-26 14:42:12,095 INFO Loaded 1105 tickers from historical S&P 500 source
+2026-03-26 14:42:12,098 INFO Total universe: 636 tickers
+2026-03-26 14:42:12,102 INFO Tickers already in DB: 0
+2026-03-26 14:42:12,102 INFO Remaining: 636 tickers to download
+2026-03-26 14:54:38,307 ERROR Failed to get ticker 'YRCW' reason: HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)
+2026-03-26 14:54:38,314 ERROR $YRCW: possibly delisted; no timezone found
+2026-03-26 14:54:43,585 INFO ============================================================
+2026-03-26 14:54:43,585 INFO Done! 0 price records inserted
+2026-03-26 14:54:43,585 INFO Tickers with no data (likely delisted pre-Yahoo coverage): 636
+2026-03-26 14:54:43,610 INFO DB: 0 tickers | 0 rows | None to None
+2026-03-26 16:02:50,680 INFO ============================================================
+2026-03-26 16:02:50,680 INFO S&P Universe Price Downloader (Stooq)
+2026-03-26 16:02:50,680 INFO ============================================================
+2026-03-26 16:02:50,797 INFO Table daily_prices ready
+2026-03-26 16:02:50,797 INFO Building ticker universe...
+2026-03-26 16:02:52,467 INFO Universe: 636 tickers
+2026-03-26 16:02:52,471 INFO Tickers already in DB: 0
+2026-03-26 16:02:52,471 INFO Remaining: 636 tickers
+2026-03-26 16:07:48,814 INFO ============================================================
+2026-03-26 16:07:48,817 INFO S&P Universe Price Downloader (Stooq)
+2026-03-26 16:07:48,817 INFO ============================================================
+2026-03-26 16:07:49,312 INFO Table daily_prices ready
+2026-03-26 16:07:49,312 INFO Building ticker universe...
+2026-03-26 16:07:50,062 INFO Universe: 636 tickers
+2026-03-26 16:07:50,075 INFO Tickers already in DB: 0
+2026-03-26 16:07:50,076 INFO Remaining: 636 tickers
+2026-03-26 16:20:44,044 INFO ============================================================
+2026-03-26 16:20:44,044 INFO Done! 1,019,047 price records inserted
+2026-03-26 16:20:44,044 INFO Tickers with no data: 335
+2026-03-26 16:20:44,365 INFO DB: 301 tickers | 1,019,047 rows | 2010-01-04 to 2023-12-29

@@ -1,0 +1,7 @@
+Model,Task,Accuracy,AUC_ROC,CV_AUC,Precision,Recall,F1,N_train,N_test
+Logistic Regression,Binary,0.5113,0.5198,0.5447,0.4994,0.3265,0.3948,23683,7666
+Random Forest,Binary,0.5149,0.52,0.5446,0.505,0.3241,0.3948,23683,7666
+Gradient Boosting,Binary,0.5102,0.516,0.5392,0.4978,0.3583,0.4167,23683,7666
+Logistic Regression,4-Class,0.2797,,,,,,49277,13420
+Random Forest,4-Class,0.2779,,,,,,49277,13420
+Gradient Boosting,4-Class,0.287,,,,,,49277,13420

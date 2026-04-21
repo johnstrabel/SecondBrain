@@ -1,0 +1,118 @@
+2026-03-29 19:38:04,878 INFO Loading event study results...
+2026-03-29 19:38:06,061 INFO Loaded 62,708 events with valid market model
+2026-03-29 19:38:06,061 INFO Events with sentiment: 57,353
+2026-03-29 19:38:06,061 INFO Date range: 2010-06-25 to 2023-11-30
+2026-03-29 19:38:06,080 INFO Events with pre-announcement mentions: 19,252
+2026-03-29 19:38:06,080 INFO 
+============================================================
+2026-03-29 19:38:06,080 INFO DESCRIPTIVE STATISTICS
+2026-03-29 19:38:06,080 INFO ============================================================
+2026-03-29 19:38:06,128 INFO 
+          ar_day0   car_pre_5  car_post_5  car_post_10  car_post_20  velocity_ratio  net_sentiment  avg_sentiment_score  mention_count_pre        beta  price_at_event
+count  62697.0000  62708.0000  62708.0000   62708.0000   62708.0000      57353.0000     19252.0000           19252.0000         57353.0000  62708.0000      62697.0000
+mean       0.0002     -0.0001      0.0001       0.0001      -0.0004          5.4601         0.0129               0.8495             1.5800      1.0120         82.5458
+std        0.0304      0.0413      0.0566       0.0752       0.1059         12.0971         0.3473               0.0992             9.4695      0.4344        140.9735
+min       -0.8910     -0.6345     -0.8751      -0.9530      -1.9271          0.0000        -1.0000               0.3421             0.0000     -5.0226          1.1700
+10%       -0.0243     -0.0391     -0.0419      -0.0579      -0.0844          0.0000        -0.2500               0.7192             0.0000      0.4856         14.3627
+25%       -0.0095     -0.0179     -0.0192      -0.0273      -0.0402          0.0000         0.0000               0.8053             0.0000      0.7361         26.5766
+50%        0.0000     -0.0001     -0.0004      -0.0004      -0.0010          0.0000         0.0000               0.8777             0.0000      0.9875         49.1827
+75%        0.0097      0.0178      0.0189       0.0266       0.0379          8.9000         0.0000               0.9238             1.0000      1.2594         93.2703
+90%        0.0252      0.0386      0.0422       0.0573       0.0814         20.0000         0.3333               0.9464             3.0000      1.5604        163.3022
+max        0.7616      0.6472      8.9955       8.9940       9.0124        645.3447         1.0000               0.9779          1704.0000      4.0735       3097.9100
+2026-03-29 19:38:06,162 INFO 
+============================================================
+2026-03-29 19:38:06,162 INFO H1: SENTIMENT SCORES PREDICT SHORT-TERM RETURNS
+2026-03-29 19:38:06,162 INFO ============================================================
+2026-03-29 19:38:06,178 INFO CAR[+1,+5] ~ Net Sentiment: coef=0.0003 se=0.0009 t=0.35 p=0.7227  n=19251
+2026-03-29 19:38:06,195 INFO CAR[+1,+5] ~ Avg Score: coef=0.0009 se=0.0031 t=0.30 p=0.7630  n=19251
+2026-03-29 19:38:06,195 INFO CAR[+1,+20] ~ Net Sentiment: coef=-0.0016 se=0.0016 t=-0.97 p=0.3306  n=19251
+2026-03-29 19:38:06,195 INFO CAR[+1,+20] ~ Avg Score: coef=0.0060 se=0.0059 t=1.03 p=0.3034  n=19251
+2026-03-29 19:38:06,210 INFO H1 results saved
+2026-03-29 19:38:06,210 INFO 
+============================================================
+2026-03-29 19:38:06,211 INFO H2: VELOCITY SPIKES PRECEDE ABNORMAL RETURNS
+2026-03-29 19:38:06,211 INFO ============================================================
+2026-03-29 19:38:06,228 INFO 3x Spike vs No Spike | AR[0]: mean=0.0012 vs 0.0002 t=1.29 p=0.1957 
+2026-03-29 19:38:06,228 INFO 3x Spike vs No Spike | CAR[+1,+5]: mean=-0.0032 vs 0.0002 t=-2.06 p=0.0390 **
+2026-03-29 19:38:06,228 INFO 3x Spike vs No Spike | CAR[+1,+20]: mean=-0.0058 vs -0.0005 t=-1.71 p=0.0872 *
+2026-03-29 19:38:06,228 INFO 5x Spike vs No Spike | AR[0]: mean=-0.0004 vs 0.0002 t=-1.43 p=0.1517 
+2026-03-29 19:38:06,245 INFO 5x Spike vs No Spike | CAR[+1,+5]: mean=0.0003 vs 0.0002 t=0.16 p=0.8736 
+2026-03-29 19:38:06,245 INFO 5x Spike vs No Spike | CAR[+1,+20]: mean=0.0007 vs -0.0005 t=0.65 p=0.5136 
+2026-03-29 19:38:06,258 INFO 10x Spike vs No Spike | AR[0]: mean=0.0003 vs 0.0002 t=0.21 p=0.8340 
+2026-03-29 19:38:06,260 INFO 10x Spike vs No Spike | CAR[+1,+5]: mean=0.0003 vs 0.0002 t=0.17 p=0.8652 
+2026-03-29 19:38:06,263 INFO 10x Spike vs No Spike | CAR[+1,+20]: mean=0.0001 vs -0.0005 t=0.57 p=0.5654 
+2026-03-29 19:38:06,278 INFO 
+Spike group summary:
+            ar_day0        car_post_5        car_post_20       
+               mean  count       mean  count        mean  count
+spike_group                                                    
+10x Spike    0.0003  13277     0.0003  13278      0.0001  13278
+3x Spike     0.0012   1349    -0.0032   1349     -0.0058   1349
+5x Spike    -0.0004   3837     0.0003   3837      0.0007   3837
+No Spike     0.0002  44234     0.0002  44244     -0.0005  44244
+2026-03-29 19:38:06,278 INFO 
+============================================================
+2026-03-29 19:38:06,278 INFO H3: SENTIMENT POWER VARIES BY STOCK CHARACTERISTICS
+2026-03-29 19:38:06,278 INFO ============================================================
+2026-03-29 19:38:06,295 INFO CAR[+1,+5] ~ Net Sentiment | Small Cap: coef=-0.0012 t=-0.91 p=0.3605  n=9627
+2026-03-29 19:38:06,299 INFO CAR[+1,+5] ~ Net Sentiment | Large Cap: coef=0.0014 t=1.15 p=0.2509  n=9625
+2026-03-29 19:38:06,307 INFO CAR[+1,+20] ~ Net Sentiment | Small Cap: coef=-0.0029 t=-1.17 p=0.2416  n=9627
+2026-03-29 19:38:06,311 INFO CAR[+1,+20] ~ Net Sentiment | Large Cap: coef=-0.0017 t=-0.77 p=0.4411  n=9625
+2026-03-29 19:38:06,312 INFO CAR[+1,+5] ~ Net Sentiment | Small Beta: coef=0.0001 t=0.12 p=0.9072  n=9627
+2026-03-29 19:38:06,325 INFO CAR[+1,+5] ~ Net Sentiment | Large Beta: coef=0.0001 t=0.10 p=0.9237  n=9625
+2026-03-29 19:38:06,329 INFO CAR[+1,+20] ~ Net Sentiment | Small Beta: coef=-0.0017 t=-0.86 p=0.3896  n=9627
+2026-03-29 19:38:06,329 INFO CAR[+1,+20] ~ Net Sentiment | Large Beta: coef=-0.0028 t=-1.04 p=0.2981  n=9625
+2026-03-29 19:38:06,329 INFO 
+============================================================
+2026-03-29 19:38:06,329 INFO H4: PRE-EARNINGS SENTIMENT VELOCITY AMPLIFIES PEAD
+2026-03-29 19:38:06,329 INFO ============================================================
+2026-03-29 19:38:06,378 INFO H4 sample: 57,343 events
+2026-03-29 19:38:06,378 INFO 
+CAR[+1,+5] — Mean CAR by Surprise × Velocity Quartile:
+             Velocity Q1  Velocity Q2  Velocity Q3  Velocity Q4
+Surprise Q1       0.0013       0.0001      -0.0001       0.0004
+Surprise Q2       0.0001      -0.0020      -0.0008      -0.0007
+Surprise Q3       0.0005      -0.0013       0.0001      -0.0013
+Surprise Q4       0.0012       0.0012       0.0009       0.0018
+2026-03-29 19:38:06,395 INFO 
+CAR[+1,+10] — Mean CAR by Surprise × Velocity Quartile:
+             Velocity Q1  Velocity Q2  Velocity Q3  Velocity Q4
+Surprise Q1      -0.0003      -0.0011      -0.0003      -0.0004
+Surprise Q2      -0.0010      -0.0028      -0.0019      -0.0003
+Surprise Q3       0.0028      -0.0023       0.0001      -0.0016
+Surprise Q4       0.0018       0.0035       0.0018       0.0024
+2026-03-29 19:38:06,411 INFO 
+CAR[+1,+20] — Mean CAR by Surprise × Velocity Quartile:
+             Velocity Q1  Velocity Q2  Velocity Q3  Velocity Q4
+Surprise Q1      -0.0065      -0.0013      -0.0010      -0.0016
+Surprise Q2      -0.0035      -0.0062      -0.0031      -0.0011
+Surprise Q3       0.0044      -0.0034       0.0001      -0.0005
+Surprise Q4       0.0067       0.0062       0.0034       0.0020
+2026-03-29 19:38:06,411 INFO 
+H4 Key Comparisons (CAR[+1,+20]):
+2026-03-29 19:38:06,411 INFO   High Surprise: High Vel vs Low Vel: 0.0020 vs 0.0067 t=-1.57 p=0.1156  n=4197/3408
+2026-03-29 19:38:06,425 INFO   Low Surprise: High Vel vs Low Vel: -0.0016 vs -0.0065 t=1.41 p=0.1588  n=4133/3319
+2026-03-29 19:38:06,425 INFO 
+Generating charts...
+2026-03-29 19:38:06,675 INFO Chart 1 saved
+2026-03-29 19:38:06,861 INFO Chart 2 saved
+2026-03-29 19:38:07,208 INFO Chart 3 saved
+2026-03-29 19:38:07,361 INFO Chart 4 saved
+2026-03-29 19:38:07,511 INFO Chart 5 saved
+2026-03-29 19:38:07,511 INFO 
+============================================================
+2026-03-29 19:38:07,511 INFO ANALYSIS COMPLETE
+2026-03-29 19:38:07,511 INFO ============================================================
+2026-03-29 19:38:07,511 INFO Output files in: analysis_results/
+2026-03-29 19:38:07,511 INFO   descriptive_stats.csv
+2026-03-29 19:38:07,511 INFO   H1_sentiment_returns.csv
+2026-03-29 19:38:07,526 INFO   H2_velocity_spikes.csv
+2026-03-29 19:38:07,527 INFO   H2_spike_group_summary.csv
+2026-03-29 19:38:07,527 INFO   H3_heterogeneity.csv
+2026-03-29 19:38:07,527 INFO   H4_grid_*.csv
+2026-03-29 19:38:07,528 INFO   H4_pivot_*.csv
+2026-03-29 19:38:07,528 INFO   chart1_car_overview.png
+2026-03-29 19:38:07,528 INFO   chart2_velocity_spikes.png
+2026-03-29 19:38:07,528 INFO   chart3_H4_heatmap.png
+2026-03-29 19:38:07,528 INFO   chart4_sentiment_over_time.png
+2026-03-29 19:38:07,528 INFO   chart5_velocity_distribution.png

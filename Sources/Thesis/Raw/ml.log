@@ -1,0 +1,259 @@
+2026-04-02 02:09:37,038 INFO Loading event study results...
+2026-04-02 02:09:38,192 INFO Base sample: 62,697 events
+2026-04-02 02:09:38,192 INFO Joining Google Trends data...
+2026-04-02 02:09:38,460 INFO Joining Wikipedia pageviews data...
+2026-04-02 02:09:39,834 INFO Building feature matrix (this takes a few minutes)...
+2026-04-02 02:10:04,645 INFO Google Trends coverage: 48,661 / 62,697
+2026-04-02 02:10:04,645 INFO Wikipedia coverage:     36,340 / 62,697
+2026-04-02 02:10:04,665 INFO Features: ['net_sentiment', 'avg_sentiment_score', 'pct_positive', 'pct_negative', 'velocity_ratio', 'log_mentions', 'mention_count_90d_avg', 'google_trends_pre', 'log_wiki', 'surprise_day0', 'is_8k', 'is_10q', 'beta', 'r_squared', 'log_price', 'log_volume']
+2026-04-02 02:10:04,692 INFO Binary sample (Q1 vs Q4): 31,349
+2026-04-02 02:10:04,692 INFO 4-class sample: 62,697
+2026-04-02 02:10:04,740 INFO Binary  — Train: 23,781 | Test: 7,568
+2026-04-02 02:10:04,740 INFO 4-class — Train: 49,277 | Test: 13,420
+2026-04-02 02:10:04,763 INFO 
+============================================================
+2026-04-02 02:10:04,763 INFO BINARY CLASSIFICATION: Q1 vs Q4 CAR[+1,+20]
+2026-04-02 02:10:04,763 INFO ============================================================
+2026-04-02 02:10:04,807 INFO 
+Training Logistic Regression...
+2026-04-02 02:10:07,055 INFO   Accuracy:  1.0000
+2026-04-02 02:10:07,055 INFO   AUC-ROC:   1.0000  (CV train AUC: 1.0000)
+2026-04-02 02:10:07,055 INFO   Precision: 1.0000
+2026-04-02 02:10:07,055 INFO   Recall:    1.0000
+2026-04-02 02:10:07,055 INFO   F1:        1.0000
+2026-04-02 02:10:07,064 INFO 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3817
+           1       1.00      1.00      1.00      3751
+
+    accuracy                           1.00      7568
+   macro avg       1.00      1.00      1.00      7568
+weighted avg       1.00      1.00      1.00      7568
+
+2026-04-02 02:10:07,065 INFO 
+Training Random Forest...
+2026-04-02 02:10:10,774 INFO   Accuracy:  1.0000
+2026-04-02 02:10:10,778 INFO   AUC-ROC:   1.0000  (CV train AUC: 1.0000)
+2026-04-02 02:10:10,779 INFO   Precision: 1.0000
+2026-04-02 02:10:10,782 INFO   Recall:    1.0000
+2026-04-02 02:10:10,783 INFO   F1:        1.0000
+2026-04-02 02:10:10,793 INFO 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3817
+           1       1.00      1.00      1.00      3751
+
+    accuracy                           1.00      7568
+   macro avg       1.00      1.00      1.00      7568
+weighted avg       1.00      1.00      1.00      7568
+
+2026-04-02 02:10:10,796 INFO 
+Training Gradient Boosting...
+2026-04-02 02:10:25,960 INFO   Accuracy:  1.0000
+2026-04-02 02:10:25,960 INFO   AUC-ROC:   1.0000  (CV train AUC: 1.0000)
+2026-04-02 02:10:25,960 INFO   Precision: 1.0000
+2026-04-02 02:10:25,960 INFO   Recall:    1.0000
+2026-04-02 02:10:25,960 INFO   F1:        1.0000
+2026-04-02 02:10:25,972 INFO 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3817
+           1       1.00      1.00      1.00      3751
+
+    accuracy                           1.00      7568
+   macro avg       1.00      1.00      1.00      7568
+weighted avg       1.00      1.00      1.00      7568
+
+2026-04-02 02:10:26,560 INFO ROC curve saved
+2026-04-02 02:10:26,561 INFO 
+============================================================
+2026-04-02 02:10:26,561 INFO 4-CLASS: PREDICTING CAR QUARTILE
+2026-04-02 02:10:26,561 INFO ============================================================
+2026-04-02 02:10:26,562 INFO 
+Training Logistic Regression (4-class)...
+2026-04-02 02:10:27,357 INFO   Accuracy: 0.9766
+2026-04-02 02:10:27,372 INFO 
+              precision    recall  f1-score   support
+
+           1       1.00      0.97      0.98      3817
+           2       0.95      0.99      0.97      2914
+           3       0.95      0.99      0.97      2938
+           4       1.00      0.96      0.98      3751
+
+    accuracy                           0.98     13420
+   macro avg       0.97      0.98      0.98     13420
+weighted avg       0.98      0.98      0.98     13420
+
+2026-04-02 02:10:27,372 INFO 
+Training Random Forest (4-class)...
+2026-04-02 02:10:37,980 INFO   Accuracy: 0.9999
+2026-04-02 02:10:37,995 INFO 
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      3817
+           2       1.00      1.00      1.00      2914
+           3       1.00      1.00      1.00      2938
+           4       1.00      1.00      1.00      3751
+
+    accuracy                           1.00     13420
+   macro avg       1.00      1.00      1.00     13420
+weighted avg       1.00      1.00      1.00     13420
+
+2026-04-02 02:10:37,996 INFO 
+Training Gradient Boosting (4-class)...
+2026-04-02 02:11:20,976 INFO Loading event study results...
+2026-04-02 02:11:22,011 INFO Base sample: 62,697 events
+2026-04-02 02:11:22,011 INFO Joining Google Trends data...
+2026-04-02 02:11:22,261 INFO Joining Wikipedia pageviews data...
+2026-04-02 02:11:23,622 INFO Building feature matrix (this takes a few minutes)...
+2026-04-02 02:11:48,826 INFO Google Trends coverage: 48,661 / 62,697
+2026-04-02 02:11:48,826 INFO Wikipedia coverage:     36,340 / 62,697
+2026-04-02 02:11:48,826 INFO Features: ['net_sentiment', 'avg_sentiment_score', 'pct_positive', 'pct_negative', 'velocity_ratio', 'log_mentions', 'mention_count_90d_avg', 'google_trends_pre', 'log_wiki', 'is_8k', 'is_10q', 'beta', 'r_squared', 'log_price', 'log_volume']
+2026-04-02 02:11:48,873 INFO Binary sample (Q1 vs Q4): 31,349
+2026-04-02 02:11:48,873 INFO 4-class sample: 62,697
+2026-04-02 02:11:48,905 INFO Binary  — Train: 23,683 | Test: 7,666
+2026-04-02 02:11:48,905 INFO 4-class — Train: 49,277 | Test: 13,420
+2026-04-02 02:11:48,921 INFO 
+============================================================
+2026-04-02 02:11:48,921 INFO BINARY CLASSIFICATION: Q1 vs Q4 CAR[+1,+20]
+2026-04-02 02:11:48,921 INFO ============================================================
+2026-04-02 02:11:48,937 INFO 
+Training Logistic Regression...
+2026-04-02 02:11:51,001 INFO   Accuracy:  0.5113
+2026-04-02 02:11:51,001 INFO   AUC-ROC:   0.5198  (CV train AUC: 0.5447)
+2026-04-02 02:11:51,001 INFO   Precision: 0.4994
+2026-04-02 02:11:51,001 INFO   Recall:    0.3265
+2026-04-02 02:11:51,001 INFO   F1:        0.3948
+2026-04-02 02:11:51,001 INFO 
+              precision    recall  f1-score   support
+
+           0       0.52      0.69      0.59      3923
+           1       0.50      0.33      0.39      3743
+
+    accuracy                           0.51      7666
+   macro avg       0.51      0.51      0.49      7666
+weighted avg       0.51      0.51      0.49      7666
+
+2026-04-02 02:11:51,001 INFO 
+Training Random Forest...
+2026-04-02 02:11:54,674 INFO   Accuracy:  0.5149
+2026-04-02 02:11:54,674 INFO   AUC-ROC:   0.5200  (CV train AUC: 0.5446)
+2026-04-02 02:11:54,674 INFO   Precision: 0.5050
+2026-04-02 02:11:54,674 INFO   Recall:    0.3241
+2026-04-02 02:11:54,674 INFO   F1:        0.3948
+2026-04-02 02:11:54,689 INFO 
+              precision    recall  f1-score   support
+
+           0       0.52      0.70      0.60      3923
+           1       0.50      0.32      0.39      3743
+
+    accuracy                           0.51      7666
+   macro avg       0.51      0.51      0.49      7666
+weighted avg       0.51      0.51      0.50      7666
+
+2026-04-02 02:11:54,694 INFO 
+Training Gradient Boosting...
+2026-04-02 02:12:31,298 INFO   Accuracy:  0.5102
+2026-04-02 02:12:31,298 INFO   AUC-ROC:   0.5160  (CV train AUC: 0.5392)
+2026-04-02 02:12:31,298 INFO   Precision: 0.4978
+2026-04-02 02:12:31,298 INFO   Recall:    0.3583
+2026-04-02 02:12:31,298 INFO   F1:        0.4167
+2026-04-02 02:12:31,298 INFO 
+              precision    recall  f1-score   support
+
+           0       0.52      0.66      0.58      3923
+           1       0.50      0.36      0.42      3743
+
+    accuracy                           0.51      7666
+   macro avg       0.51      0.51      0.50      7666
+weighted avg       0.51      0.51      0.50      7666
+
+2026-04-02 02:12:31,441 INFO ROC curve saved
+2026-04-02 02:12:31,441 INFO 
+============================================================
+2026-04-02 02:12:31,441 INFO 4-CLASS: PREDICTING CAR QUARTILE
+2026-04-02 02:12:31,441 INFO ============================================================
+2026-04-02 02:12:31,441 INFO 
+Training Logistic Regression (4-class)...
+2026-04-02 02:12:31,569 INFO   Accuracy: 0.2797
+2026-04-02 02:12:31,569 INFO 
+              precision    recall  f1-score   support
+
+           1       0.32      0.25      0.28      3923
+           2       0.24      0.32      0.27      2886
+           3       0.24      0.32      0.27      2868
+           4       0.35      0.25      0.29      3743
+
+    accuracy                           0.28     13420
+   macro avg       0.29      0.28      0.28     13420
+weighted avg       0.29      0.28      0.28     13420
+
+2026-04-02 02:12:31,569 INFO 
+Training Random Forest (4-class)...
+2026-04-02 02:12:36,996 INFO   Accuracy: 0.2779
+2026-04-02 02:12:36,996 INFO 
+              precision    recall  f1-score   support
+
+           1       0.32      0.27      0.29      3923
+           2       0.24      0.25      0.25      2886
+           3       0.23      0.38      0.29      2868
+           4       0.35      0.23      0.28      3743
+
+    accuracy                           0.28     13420
+   macro avg       0.29      0.28      0.28     13420
+weighted avg       0.29      0.28      0.28     13420
+
+2026-04-02 02:12:36,996 INFO 
+Training Gradient Boosting (4-class)...
+2026-04-02 02:14:13,710 INFO   Accuracy: 0.2870
+2026-04-02 02:14:13,717 INFO 
+              precision    recall  f1-score   support
+
+           1       0.32      0.33      0.32      3923
+           2       0.24      0.26      0.25      2886
+           3       0.26      0.31      0.28      2868
+           4       0.33      0.25      0.28      3743
+
+    accuracy                           0.29     13420
+   macro avg       0.29      0.29      0.28     13420
+weighted avg       0.29      0.29      0.29     13420
+
+2026-04-02 02:14:13,717 INFO 
+Computing feature importance...
+2026-04-02 02:14:13,751 INFO 
+Top 10 features:
+              feature  importance
+            log_price    0.300317
+           log_volume    0.132013
+                 beta    0.125127
+            r_squared    0.109186
+             log_wiki    0.061824
+    google_trends_pre    0.058779
+  avg_sentiment_score    0.058700
+mention_count_90d_avg    0.053726
+       velocity_ratio    0.032182
+         log_mentions    0.016796
+2026-04-02 02:14:13,941 INFO Feature importance chart saved
+2026-04-02 02:14:13,941 INFO 
+Best model: Random Forest
+2026-04-02 02:14:14,101 INFO Generating predicted probability decile chart...
+2026-04-02 02:14:14,324 INFO Decile chart saved
+2026-04-02 02:14:14,324 INFO 
+============================================================
+2026-04-02 02:14:14,324 INFO ML MODEL COMPLETE
+2026-04-02 02:14:14,324 INFO ============================================================
+2026-04-02 02:14:14,324 INFO 
+Model comparison:
+              Model  Accuracy  AUC_ROC  CV_AUC     F1
+Logistic Regression    0.5113   0.5198  0.5447 0.3948
+      Random Forest    0.5149   0.5200  0.5446 0.3948
+  Gradient Boosting    0.5102   0.5160  0.5392 0.4167
+2026-04-02 02:14:14,324 INFO 
+Output files in: ml_results/
+2026-04-02 02:14:14,324 INFO   model_comparison.csv
+2026-04-02 02:14:14,340 INFO   feature_importance.csv
+2026-04-02 02:14:14,340 INFO   feature_importance.png
+2026-04-02 02:14:14,340 INFO   roc_curves_binary.png
+2026-04-02 02:14:14,340 INFO   confusion_matrix.png
+2026-04-02 02:14:14,340 INFO   prediction_decile_returns.png

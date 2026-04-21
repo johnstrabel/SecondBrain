@@ -1,0 +1,15 @@
+# Obsidian workspace state (changes every session, not useful to track)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Smart Connections cache (large, fully regenerable)
+.smart-env/
+
+# Obsidian trash
+.trash/
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
