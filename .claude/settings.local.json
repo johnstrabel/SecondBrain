@@ -19,7 +19,8 @@
       "Bash(python3 \"C:/Python312/Scripts/pip\" install pypdf)",
       "Bash(where python *)",
       "Bash(where pip *)",
-      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__get_meeting_transcript"
+      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__get_meeting_transcript",
+      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__query_granola_meetings"
     ]
   }
 }
