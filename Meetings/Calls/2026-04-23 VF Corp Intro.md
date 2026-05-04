@@ -45,8 +45,30 @@ Recruiter intro call for VF Corporation's Financial Analyst – Real Estate role
 - No direct professional real estate experience
 
 ## Next Steps
-- [ ] Send resume to recruiter via email
+- [x] Send resume to recruiter via email ✅
 - [ ] Optionally apply directly to job posting
 - [ ] Recruiter to discuss with hiring manager re: interview stage
 - [ ] Recruiter will also share resume with other finance/accounting hiring managers
-- [ ] Available to start mid-late July 2026
+- [x] Available to start mid-late July 2026 — **updated: can be home mid-June if needed**
+
+---
+
+## Follow-Up Email Exchange (early May 2026)
+
+**Rachel's email:**
+- Hiring manager reviewed John's background — impressed
+- BUT: ideally wants role filled before July due to business needs
+- Keeping resume on file; will update if not filled by then
+- Asked if John has seen other VF roles he's interested in
+
+**John's reply:**
+- No strong VF fits spotted yet; open to anything she thinks aligns
+- Will keep searching; appreciates help with non-VF opps too
+
+**Key update:** John can now be back home by **mid-June** (parents visiting Prague, Europe trip, then home — earlier than the mid-late July originally stated). This directly addresses Rachel's timing concern.
+
+## Text to Send Rachel (May 5)
+
+> Hey Rachel! Hope you're doing well! Just wanted to reach out with a quick update - I found out I could actually be back home by mid-June if a position needed it sooner, so the timing might work out better than I originally thought for the Financial Analyst role. I know things may already be moving in a direction with other candidates, so no pressure at all - just wanted to put it on your radar in case it's useful. Either way I really appreciate you keeping me in the loop and I'm still very much open to anything else you think could be a good fit. Talk soon!
+
+- [ ] Send this text to Rachel on May 5
