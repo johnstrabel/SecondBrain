@@ -1,8 +1,13 @@
-- [x] Meeting With Alison #remind-at-due ⏰ 21:00PM ➕ 2026-04-21 📅 2026-04-21
-	
-- [x] Final interview #remind-at-due ⏰ 6:00PM ➕ 2026-04-21 📅 2026-04-22
-- [x] Dish interview #remind-at-due ⏰ 6:00PM ➕ 2026-04-21 📅 2026-04-24
-- [x] Call with Heather #remind-at-due ⏰ 7:30PM ➕ 2026-04-21 📅 2026-04-23
-- [x] Call with Rachel #remind-at-due ⏰ 6:30PM ➕ 2026-04-21 📅 2026-04-23
+- [x] Meeting With Alison ⏰ 21:00PM #remind-at-due ➕ 2026-04-21 📅 2026-04-21 ✅ 2026-04-26
+
+- [x] Final interview #remind-at-due ⏰ 6:00PM ➕ 2026-04-21 📅 2026-04-22 ✅ 2026-04-26
+- [x] Dish interview #remind-at-due ⏰ 6:00PM ➕ 2026-04-21 📅 2026-04-24 ✅ 2026-04-26
+- [x] Call with Heather #remind-at-due ⏰ 7:30PM ➕ 2026-04-21 📅 2026-04-23 ✅ 2026-04-26
+- [x] Call with Rachel #remind-at-due ⏰ 6:30PM ➕ 2026-04-21 📅 2026-04-23 ✅ 2026-04-26
 - [ ] WORK ON THESIS ➕ 2026-04-21
-- [x] La Pension planners interview #remind-at-due ⏰ 7:30PM ➕ 2026-04-21 📅 2026-04-22
+- [x] La Pension planners interview #remind-at-due ⏰ 7:30PM ➕ 2026-04-21 📅 2026-04-22 ✅ 2026-04-26
+- [x] Have Claude generate all the necessary tables and format the paper so the charts and tables all look good within the paper. Also Gotta read/ edit 4.5.6.7.8 and make table of contents. Clean then submit to ficura for review ➕ 2026-04-26 📅 2026-04-27 ✅ 2026-04-28
+- [x] email Dish lady #remind-at-due ⏰ 1:00PM ➕ 2026-04-27 📅 2026-04-27 ✅ 2026-04-28
+- [ ] Meeting With Jim (Zoom) #remind-at-due ⏰ 4:00PM ➕ 2026-04-27 📅 2026-04-28
+- [ ] R Presentation ➕ 2026-04-28 📅 2026-05-06
+- [ ] News presentation ➕ 2026-04-28 📅 2026-04-29

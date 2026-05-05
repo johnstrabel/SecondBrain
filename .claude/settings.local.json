@@ -20,7 +20,10 @@
       "Bash(where python *)",
       "Bash(where pip *)",
       "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__get_meeting_transcript",
-      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__query_granola_meetings"
+      "mcp__40f8e001-bc74-436e-9a57-a86bbbf6e2ff__query_granola_meetings",
+      "Read(//c/Users/johnn/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/9a69839b-8493-400c-a2c4-a7157d6dabb4/24ace59f-1b6b-4ed7-8baf-d2d6169f053b/skills/docx/**)",
+      "Bash(extract-text \"C:\\\\Users\\\\johnn\\\\Downloads\\\\Thesis_Final_Formatted \\(1\\).docx\")",
+      "Bash(pandoc \"C:/Users/johnn/Downloads/Thesis_Final_Formatted \\(1\\).docx\" -t markdown)"
     ]
   }
 }
